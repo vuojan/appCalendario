@@ -1,0 +1,113 @@
+body {
+    font-family: Montserrat;
+    padding: 20px;
+}
+
+#title{
+
+    font-weight: 500;
+    color: darkviolet;
+    font-size: 45px;
+    border-bottom: solid 1px;
+    max-width: 770px;
+    margin-bottom: 60px;
+
+}
+
+.divwidth{
+
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+#calendario {
+    max-width: 600px; /* Cambiar el ancho máximo del calendario */
+    margin: 0 auto; /* Centrar el calendario */
+}
+
+#calendario h2{
+
+    font-weight: 500;
+
+}
+
+.fc-day-event {
+    background-color: #007BFF; /* Color de fondo para días con eventos */
+    color: white; /* Color del texto */
+}
+
+.evento {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #007BFF;
+    background-color: #e9f7ff;
+}
+
+.evento h3 {
+    margin: 0;
+}
+
+div.fc-button-group{
+
+    gap: 5px;
+
+}
+
+/* Cambiar el color de las flechas de navegación */
+.fc-prev-button, 
+.fc-next-button {
+    color: white !important;
+    background-color: dodgerblue !important;
+    border-color: white !important;
+    font-weight: bold !important;
+}
+
+/* Cambiar el color del texto "Hoy" */
+.fc-today-button {
+    color: white !important;
+    background-color: slateblue !important;
+    border-color: white !important;
+    font-weight: bold !important;
+}
+
+/* Eliminar borde y sombra en los botones de navegación */
+.fc-prev-button,
+.fc-next-button {
+    border: none !important; /* Eliminar borde */
+    outline: none !important; /* Eliminar el contorno que aparece al hacer clic */
+    box-shadow: none !important; /* Eliminar cualquier sombra que pueda aparecer */
+}
+
+/* Asegurarte de que en estado activo no haya borde o sombra */
+.fc-prev-button.fc-state-active,
+.fc-next-button.fc-state-active {
+    border: none !important; /* Asegúrate de que no haya borde al hacer clic */
+    outline: none !important; /* Eliminar contorno en estado activo */
+    box-shadow: none !important; /* Eliminar sombra en estado activo */
+}
+
+/* Estilo para el efecto hover (opcional) */
+.fc-prev-button:hover,
+.fc-next-button:hover {
+    background-color: lightskyblue !important; /* Cambiar el fondo en hover si deseas */
+}
+
+/* Eliminar borde y sombra en el botón "Hoy" */
+.fc-today-button {
+    border: none !important; /* Eliminar borde */
+    outline: none !important; /* Eliminar contorno que aparece al hacer clic */
+    box-shadow: none !important; /* Eliminar sombra que aparece al hacer clic */
+}
+
+/* Asegurarte de que en estado activo no haya borde o sombra */
+.fc-today-button.fc-state-active {
+    border: none !important; /* Asegúrate de que no haya borde al hacer clic */
+    outline: none !important; /* Eliminar contorno en estado activo */
+    box-shadow: none !important; /* Eliminar sombra en estado activo */
+}
+
+/* Mantener el efecto de resaltado */
+.fc-today-button.fc-state-active:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Color de fondo cuando se hace hover en "Hoy" */
+}

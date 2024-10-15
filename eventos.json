@@ -1,0 +1,60 @@
+{
+    "2024-10-15": [
+        {
+            "nombre": "Reunión de equipo",
+            "descripcion": "Reunión para discutir el progreso del proyecto.",
+            "ubicacion": "Sala de conferencias 1",
+            "materiales": ["Laptop", "Proyector", "Pizarra"]
+        },
+        {
+            "nombre": "Taller de diseño",
+            "descripcion": "Taller para mejorar nuestras habilidades de diseño.",
+            "ubicacion": "Sala de diseño",
+            "materiales": ["Papeles", "Marcadores", "Tabletas gráficas"]
+        }
+    ],
+    "2024-10-16": [
+        {
+            "nombre": "Presentación del proyecto",
+            "descripcion": "Presentación final del proyecto ante el cliente.",
+            "ubicacion": "Auditorio principal",
+            "materiales": ["Laptop", "Presentación en PowerPoint", "Folleto del proyecto"]
+        }
+    ],
+    "2024-10-17": [
+        {
+            "nombre": "Café con el cliente",
+            "descripcion": "Reunión informal para discutir futuras colaboraciones.",
+            "ubicacion": "Cafetería del edificio",
+            "materiales": ["Tarjetas de presentación"]
+        }
+    ],
+    "2024-10-20": [
+        {
+            "nombre": "Café con el cliente",
+            "descripcion": "Reunión informal para discutir futuras colaboraciones.",
+            "ubicacion": "Cafetería del edificio",
+            "materiales": ["Tarjetas de presentación"]
+        },
+        {
+            "nombre": "Café con el cliente",
+            "descripcion": "Reunión informal para discutir futuras colaboraciones.",
+            "ubicacion": "Cafetería del edificio",
+            "materiales": ["Tarjetas de presentación"]
+        },
+        {
+            "nombre": "Café con el cliente",
+            "descripcion": "Reunión informal para discutir futuras colaboraciones.",
+            "ubicacion": "Cafetería del edificio",
+            "materiales": ["Tarjetas de presentación"]
+        }
+    ],
+    "2025-01-10": [
+        {
+            "nombre": "Café con el cliente",
+            "descripcion": "Reunión informal para discutir futuras colaboraciones.",
+            "ubicacion": "Cafetería del edificio",
+            "materiales": ["Tarjetas de presentación"]
+        }
+    ]
+}
